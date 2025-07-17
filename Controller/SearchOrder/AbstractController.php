@@ -96,7 +96,7 @@ abstract class AbstractController extends Action
         $this->user = $user;
         $this->aclRetriever = $aclRetriever;
 
-        return parent::__construct($context);
+        parent::__construct($context);
     }
 
     /**
